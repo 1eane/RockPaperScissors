@@ -1,3 +1,12 @@
+from tkinter import *
+
+fenetre = Tk()
+
+label = Label(fenetre)
+label.pack()
+
+fenetre.mainloop()
+
 print("Jouons au pierre feuille ciseau ensemble:")
 print("Tapez 1 pour choisir la pierre")
 print("Tapez 2 pour choisir la feuille")
