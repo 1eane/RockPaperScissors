@@ -1,10 +1,8 @@
 from tkinter import *
-
+# tkinder interface
 fenetre = Tk()
-
 label = Label(fenetre)
 label.pack()
-
 fenetre.mainloop()
 
 print("Jouons au pierre feuille ciseau ensemble:")
