@@ -1,16 +1,11 @@
-print("The line will be printed")
+print("Jouons au pierre feuille ciseau ensemble:"/n)
+print("Tapez 1 pour choisir la pierre")
+print("Tapez 2 pour choisir la feuille")
+print("Tapez 3 pour choisir le ciseau")
 
-myint = 7
-print(myint)
+mychoice = input()
 
-mystring = "Hello everyone"
-print(mystring)
-
-num1 = 1
-num2 = 9
-num3 = num1 + num2
-print(num3)
-
-test1 = "coucou"
-test2 = "les loulous"
-print(test1 + " " + test2)
+if (mychoice>=1 && mychoice<=3):
+    compchoice = ['pierre', 'feuille', 'ciseau']
+    def selectRandom(compchoice):
+        return random.choice(compchoice)
